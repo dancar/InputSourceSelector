@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/Users/dancarmon/dev/external/InputSourceSelector/InputSourceSelector select com.apple.keylayout.ABC
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+"$SCRIPT_DIR/InputSourceSelector" select com.apple.keylayout.ABC
